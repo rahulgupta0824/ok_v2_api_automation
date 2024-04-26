@@ -1,0 +1,65 @@
+{
+
+    "name": "ONLINEKARS V-2_unit_automation",
+
+    "version": "1.0.0",
+
+    "description": "",
+
+    "main": "index.js",
+
+    "scripts": {
+
+        "test_login": "mocha --timeout 1000000 --reporter mochawesome test/login.test.js",
+
+        "test_profile": "mocha --timeout 100000 --reporter mochawesome test/profile.test.js",
+
+        "test_random_biddingg": "mocha --timeout 100000000000 --reporter mochawesome test/random_bidding.test.js",
+
+        "test_bid_wip": "mocha --timeout 1000000000 --reporter mochawesome test/bid_wip.test.js",
+
+        "test_auction": "mocha --timeout 1000000000 --reporter mochawesome test/auction.test.js",
+
+        "test_wip": "mocha --timeout 1000000000 --reporter mochawesome test/wip.test.js",
+        "test_rahul": "mocha --timeout 1000000000 --reporter mochawesome test/rahul.test.js",
+
+        "test_random_bidding": "mocha --timeout 1000000000 test/random_bidding.test.js --reporter mocha-junit-reporter --reporter-options mochaFile=test-results.xml"
+
+    },
+
+    "keywords": [],
+
+    "author": "Rahul Gupta",
+
+    "license": "ISC",
+
+    "devDependencies": {
+
+        "chai": "^4.3.7",
+
+        "mocha": "^10.2.0",
+
+        "mocha-junit-reporter": "^2.2.1",
+
+        "mochawesome": "^7.1.3",
+
+        "mochawesome-merge": "^4.3.0",
+
+        "mochawesome-report-generator": "^6.2.0"
+
+    },
+
+    "dependencies": {
+
+        "faker": "^5.5.3",
+
+        "moment": "^2.29.4",
+
+        "moment-timezone": "^0.5.43",
+
+        "validator": "^13.9.0"
+
+    }
+
+}
+
